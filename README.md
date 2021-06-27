@@ -11,3 +11,13 @@ nice and convenient directory structure.
 
 ```init.vim``` simply sources all of these files to load all the configs
 
+---
+How to use
+---
+**LINUX/MacOS**
+
+1. Clone this repository and then rename the directory to ```nvim```
+2. Move the directory to ```~/.config/```
+3. Close and reopen your terminal, then type ```nvim```
+4. In command mode, type ```:PlugInstall``` to install all the plugins
+5. Enjoy using your neovim setup!
