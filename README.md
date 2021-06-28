@@ -18,7 +18,7 @@ How to use
 
 1. Clone this repository and then rename the directory to ```nvim```
 2. Move the directory to ```~/.config/```
-3. Close and reopen your terminal, then type ```nvim```
-4. Go to https://github.com/junegunn/vim-plug and install vim-plug
+3. Go to https://github.com/junegunn/vim-plug and install vim-plug
+4. Close and reopen your terminal, then type ```nvim```
 5. In command mode, type ```:PlugInstall``` to install all the plugins
 6. Enjoy using your neovim setup!
