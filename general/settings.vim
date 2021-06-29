@@ -35,6 +35,8 @@ inoremap (<CR> (<CR>)<Esc>ko<tab>
 
 " Nerdtree binding (SPACE-n-e to Toggle)
 nmap <leader>ne :NERDTreeToggle<cr>
+" Nerdtree ignore node_modules dir for npm projects
+let g:NERDTreeIgnore = ['node_modules$']
 
 " Markdown settings
 
