@@ -11,6 +11,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " ======File Explorer=======
     Plug 'scrooloose/NERDTree'
 
+    " ===== GraphQL Support ===== 
+    Plug 'jparise/vim-graphql' 
+
     " ===== Auto close Brackets ==== 
     Plug 'jiangmiao/auto-pairs'
 
