@@ -28,10 +28,11 @@ set colorcolumn=80                      " Sets colorcolumn so lines don't become
 set showtabline=2                       " Always show tabs
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
+" === Auto Pairs Plugin handling this ==== 
 " Automatically closing braces
-inoremap {<CR> {<CR>}<Esc>ko<tab>
-inoremap [<CR> [<CR>]<Esc>ko<tab>
-inoremap (<CR> (<CR>)<Esc>ko<tab>
+" inoremap {<CR> {<CR>}<Esc>ko<tab>
+" inoremap [<CR> [<CR>]<Esc>ko<tab>
+" inoremap (<CR> (<CR>)<Esc>ko<tab>
 
 " Nerdtree binding (SPACE-n-e to Toggle)
 nmap <leader>ne :NERDTreeToggle<cr>

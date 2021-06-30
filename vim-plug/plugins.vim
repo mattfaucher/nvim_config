@@ -11,6 +11,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " ======File Explorer=======
     Plug 'scrooloose/NERDTree'
 
+    " ===== Auto close Brackets ==== 
+    Plug 'jiangmiao/auto-pairs'
+
     " =======MD previewer========
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
