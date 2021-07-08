@@ -14,6 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " JSX Support
     Plug 'maxmellon/vim-jsx-pretty'
 
+    " AutoClose React / HTML tags
+    Plug 'alvan/vim-closetag' 
+
     " ===== GraphQL Support ===== 
     Plug 'jparise/vim-graphql' 
 
