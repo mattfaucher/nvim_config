@@ -11,6 +11,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " ======File Explorer=======
     Plug 'scrooloose/NERDTree'
 
+    " JSX Support
+    Plug 'maxmellon/vim-jsx-pretty'
+
     " ===== GraphQL Support ===== 
     Plug 'jparise/vim-graphql' 
 
