@@ -13,7 +13,6 @@ set iskeyword+=-                      	" treat dash separated words as a word te
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
-set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
 set tabstop=2                           " Insert 2 spaces for a tab
 set shiftwidth=2                        " Change the number of space characters inserted for indentation
@@ -27,12 +26,6 @@ set cursorline                          " Highlight whole line where cursor is
 set colorcolumn=80                      " Sets colorcolumn so lines don't become too long
 set showtabline=2                       " Always show tabs
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-
-" === Auto Pairs Plugin handling this ==== 
-" Automatically closing braces
-" inoremap {<CR> {<CR>}<Esc>ko<tab>
-" inoremap [<CR> [<CR>]<Esc>ko<tab>
-" inoremap (<CR> (<CR>)<Esc>ko<tab>
 
 " Nerdtree binding (SPACE-n-e to Toggle)
 nmap <leader>ne :NERDTreeToggle<cr>

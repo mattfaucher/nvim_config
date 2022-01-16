@@ -1,9 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " ========COLORTHEMES=======
-    " Space-vim-dark theme 
-    Plug 'liuchengxu/space-vim-dark'
-    Plug 'ayu-theme/ayu-vim'
+    " Gruvbox theme
+    Plug 'morhetz/gruvbox'
 
     " ====== STATUS BAR ========
     " Airline for vim
