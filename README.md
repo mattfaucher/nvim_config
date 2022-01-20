@@ -16,9 +16,9 @@ How to use
 ---
 **LINUX/MacOS**
 
-1. Clone this repository and then rename the directory to ```nvim```
-2. Move the directory to ```~/.config/```
-3. ```cd ~/.config/``` and then enter ```mv neovim_skeleton nvim```
+1. Clone the repository as nvim ```git clone https://github.com/mattfaucher/neovim_skeleton.git nvim```
+2. Move the directory to .config ```mv nvim /.config/nvim```
+3. Go into the directory ```cd ~/.config/nvim```
 4. Go to https://github.com/junegunn/vim-plug and install vim-plug
 5. Close and reopen your terminal, then type ```nvim```
 6. In command mode, type ```:PlugInstall``` to install all the plugins
