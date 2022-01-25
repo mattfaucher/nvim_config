@@ -3,6 +3,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Language Server Config
     Plug 'neovim/nvim-lspconfig'
     Plug 'neoclide/coc.nvim', {'branch':'release'}
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'folke/trouble.nvim'
     
     " ========COLORTHEMES=======
     " Gruvbox theme
