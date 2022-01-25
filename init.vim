@@ -20,7 +20,7 @@ endif
 colorscheme gruvbox
 set background=dark
 
-lua require('lspconfig').clangd.setup{}
+lua require('lspconfig').clangd.setup{ on_attach=require'completion'.on_attach }
 
 " Set the runtimepath
 set runtimepath+=$HOME/.config/nvim/vim-plug
