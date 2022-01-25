@@ -16,4 +16,3 @@ colorscheme gruvbox
 
 " Set the runtimepath
 set runtimepath+=$HOME/.config/nvim/vim-plug
-
