@@ -2,7 +2,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     "Language Server Config
     Plug 'neovim/nvim-lspconfig'
-    Plug 'nvim-lua/completion-nvim'
+    Plug 'neoclide/coc.nvim', {'branch':'release'}
     
     " ========COLORTHEMES=======
     " Gruvbox theme
