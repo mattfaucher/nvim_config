@@ -27,7 +27,10 @@ set colorcolumn=80                      " Sets colorcolumn so lines don't become
 set showtabline=2                       " Always show tabs
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
-" Nerdtree binding (SPACE-n-e to Toggle)
+" Error Diagnostics binding (SPACE-t-t to Toggle)
+nmap <leader>tt :TroubleToggle<cr>
+
+" Nerdtree binding (SPACE-n-t to Toggle)
 nmap <leader>nt :NERDTreeToggle<cr>
 " Nerdtree ignore node_modules dir for npm projects
 let g:NERDTreeIgnore = ['node_modules$']
