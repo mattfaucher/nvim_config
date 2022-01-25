@@ -1,5 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "Language Server Config
+    Plug 'neovim/nvim-lspconfig'
+    
     " ========COLORTHEMES=======
     " Gruvbox theme
     Plug 'morhetz/gruvbox'
@@ -10,15 +13,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " ======File Explorer=======
     Plug 'scrooloose/NERDTree'
-
-    " JSX Support
-    Plug 'maxmellon/vim-jsx-pretty'
-
-    " AutoClose React / HTML tags
-    Plug 'alvan/vim-closetag' 
-
-    " ===== GraphQL Support ===== 
-    Plug 'jparise/vim-graphql' 
 
     " ===== Auto close Brackets ==== 
     Plug 'jiangmiao/auto-pairs'

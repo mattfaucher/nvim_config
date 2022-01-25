@@ -28,7 +28,7 @@ set showtabline=2                       " Always show tabs
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
 " Nerdtree binding (SPACE-n-e to Toggle)
-nmap <leader>ne :NERDTreeToggle<cr>
+nmap <leader>nt :NERDTreeToggle<cr>
 " Nerdtree ignore node_modules dir for npm projects
 let g:NERDTreeIgnore = ['node_modules$']
 
