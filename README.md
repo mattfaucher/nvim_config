@@ -22,5 +22,5 @@ How to use
 4. Go to https://github.com/junegunn/vim-plug and install vim-plug
 5. Close and reopen your terminal, then type ```nvim```
 6. In command mode, type ```:PlugInstall``` to install all the plugins
-7. Optionally, install any language servers through nvim ```:CocInstall <lang-server``` (clangd is setup by default)
+7. Optionally, install any language servers through nvim ```:CocInstall <lang-server``` (coc-clangd) for C/C++
 9. Enjoy using your neovim setup!
