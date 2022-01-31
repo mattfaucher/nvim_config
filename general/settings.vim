@@ -27,6 +27,10 @@ set colorcolumn=80                      " Sets colorcolumn so lines don't become
 set showtabline=2                       " Always show tabs
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
+" Jump to definition with coc
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
+
 " Error Diagnostics binding (SPACE-t-t to Toggle)
 nmap <leader>tt :TroubleToggle<cr>
 
